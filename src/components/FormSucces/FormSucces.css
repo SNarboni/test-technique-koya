@@ -1,0 +1,10 @@
+.sended-message {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sended-message h1 {
+  color: #34bacd;
+}
