@@ -4,22 +4,26 @@ import FormSucces from "../FormSucces/FormSucces";
 import "./Form.css";
 
 const Form = () => {
-  const [formValid, setFormValid] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
-  const changeView = () => {
-    setFormValid(!formValid);
+  const check = (bool) => {
+    // vérification si le formulaire a bien été envoyé
+    setFormSubmitted(bool);
+
   };
 
-  if (formValid) {
+  if (formSubmitted) {
+    // si oui on affiche FormSucces
     return (
       <>
-        <FormSucces check={changeView}></FormSucces>
+        <FormSucces check={check}></FormSucces>
       </>
     );
   } else {
     return (
+    // si non on affiche FormContact
       <>
-        <FormContact check={changeView}></FormContact>
+        <FormContact check={check}></FormContact>
       </>
     );
   }

@@ -33,6 +33,13 @@
   border-style: solid;
   transition: background-color 0.5s ease-in-out;
 }
+.contact-form .item-phone {
+  margin-bottom: 15px;
+  border-color: #085e6d;
+  border-style: solid;
+  transition: background-color 0.5s ease-in-out;
+}
+
 .contact-form .select {
   margin-bottom: 15px;
   border-color: #085e6d;
@@ -41,7 +48,9 @@
 }
 
 .contact-form .item:hover,
-.contact-form .item:focus {
+.contact-form .item:focus,
+.contact-form .item-phone:hover,
+.contact-form .item-phone:focus {
   background-color: #6eb0b8;
   color: #fff;
 }
