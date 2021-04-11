@@ -33,6 +33,13 @@
 formulaire de contact:
 ![](./public/capture.png "formulaire de contact")
 
+### `git clone https://github.com/SNarboni/test-technique-koya.git`
+
+Pour cloner les dossiers
+
+### `cd test-technique-koya`
+
+Pour aller dans le dossier
 
 ### `npm i` ou `npm install`
 
